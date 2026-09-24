@@ -43,11 +43,6 @@
     font-size: 16px;
 }
 
-.nav a:hover{
-    color: var(--cor-escura);
-    transition: ease 0.5s;
-}
-
 .btn-contatos{
     border: 1px solid var(--cor-borda);
     padding: 8px 20px;
