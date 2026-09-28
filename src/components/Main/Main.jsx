@@ -9,12 +9,33 @@ function Main(){
 
                 <div className='hero-buttons'>
                     <a href="#orcamento" className='btn-primary'>Peça um orçamento</a>
-                    <a href="#potifolio" className='btn-segundary'>Ver portifólio</a>
+                    <a href="#potifolio" className='btn-secondary'>Ver portifólio</a>
                 </div>
             </section>
 
             <section className='servicos'>
+                <h2>Nossos Serviços</h2>
 
+                <div className='servicos-grid'>
+                    <div className='servicos-card'></div>
+                    <span>❤️</span>
+                    <h3>Desing de Interfaces</h3>
+                    <p>Telas claras, pensadas para o usuário</p>
+                </div>
+
+                <div className='servicos-grid'>
+                    <div className='servicos-card'></div>
+                    <span>😍</span>
+                    <h3>Responsividade</h3>
+                    <p>O mesmso site em qualquer tela</p>
+                </div>
+
+                <div className='servicos-grid'>
+                    <div className='servicos-card'></div>
+                    <span>💕</span>
+                    <h3>Performace</h3>
+                    <p>paginas leves que carregam rápido</p>
+                </div>
             </section>
         </main>
     )
