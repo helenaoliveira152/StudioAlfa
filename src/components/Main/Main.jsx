@@ -17,27 +17,26 @@ function Main(){
                 <h2>Nossos Serviços</h2>
 
                 <div className='servicos-grid'>
-                    <div className='servicos-card'></div>
+                    <div className='servicos-card'>
                     <span>❤️</span>
                     <h3>Desing de Interfaces</h3>
-                    <p>Telas claras, pensadas para o usuário</p>
+                    <p>Telas claras, pensadas para o usuário.</p>
                 </div>
-
-                <div className='servicos-grid'>
-                    <div className='servicos-card'></div>
+            
+                <div className='servicos-card'>
                     <span>😍</span>
                     <h3>Responsividade</h3>
-                    <p>O mesmso site em qualquer tela</p>
+                    <p>O mesmso site em qualquer tela.</p>
                 </div>
 
-                <div className='servicos-grid'>
-                    <div className='servicos-card'></div>
+                 <div className='servicos-card'>
                     <span>💕</span>
                     <h3>Performace</h3>
-                    <p>paginas leves que carregam rápido</p>
+                    <p>Páginas leves que carregam rápido.</p>
                 </div>
-            </section>
-        </main>
+            </div>
+        </section>
+    </main>
     )
 }
 
